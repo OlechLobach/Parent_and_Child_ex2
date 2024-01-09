@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{ba671489-c2d5-45ae-a8a5-b89e0a7ffde1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForeignPassport">
+      <UniqueIdentifier>{537784a3-0592-4a8d-b3d8-b0fb94683ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pasport">
+      <UniqueIdentifier>{7cfa0176-0481-450e-a229-b6fe994597f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="ForeignPassport.cpp">
+      <Filter>ForeignPassport</Filter>
+    </ClCompile>
+    <ClCompile Include="Passport.cpp">
+      <Filter>Pasport</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ForeignPassport.h">
+      <Filter>ForeignPassport</Filter>
+    </ClInclude>
+    <ClInclude Include="Passport.h">
+      <Filter>Pasport</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
